@@ -1,1 +1,6 @@
-// Babel 설정 파일
+{
+  "presets": ["env", "stage-2", "react"],
+  "plugins": [
+    "transform-runtime"
+  ]
+}
